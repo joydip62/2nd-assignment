@@ -8,7 +8,7 @@ table{
 thead th{
     background-color: rgba(60, 60, 60, 0.61);
     color: white;
-    padding: 15px;
+    padding: 10px;
 }
 td:nth-last-of-type(4){
     background-color: #ffd625;
