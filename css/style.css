@@ -1,3 +1,20 @@
 body{
-    background-color: white;
+    background-color: rgba(234, 234, 234, 0.24);
+}
+table{
+    width: 80%;
+    margin: auto;
+}
+thead th{
+    background-color: rgba(60, 60, 60, 0.61);
+    color: white;
+}
+td:nth-last-of-type(4){
+    background-color: #ffd625;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody td:nth-child(2){
+    text-align: center;
 }
