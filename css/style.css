@@ -8,14 +8,26 @@ table{
 thead th{
     background-color: rgba(60, 60, 60, 0.61);
     color: white;
-    padding: 10px;
 }
+
+table{
+    background-image: linear-gradient(rgba(5, 0, 0, 0.25), rgba(255, 255, 0, 0.13));
+}
+
+tbody td:nth-child(2){
+    text-align: center;
+}
+
 td:nth-last-of-type(4){
     background-color: #ffd625;
     padding: 10px;
     text-align: center;
 }
 
-tbody td:nth-child(2){
+td:nth-last-of-type(1){
+    background-color: #ffd625;
+    background-image: linear-gradient(rgba(255, 215, 35, 0.47), rgba(255, 255, 0, 0.13));
+    padding: 10px;
     text-align: center;
 }
+
